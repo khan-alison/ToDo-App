@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+/* css */
+
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 60%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main input {
+  width: 400px;
+  height: 32px;
+  border-radius: 4px;
+}
+.main button {
+  width: 120px;
+  height: 93%;
+  border-radius: 4px;
+  padding: 0;
+  border: 0;
+  margin-left: 4px;
+}
+
+h1 {
+  margin-left: -100px;
+}
+
+ul {
+  width: 400px;
+  padding: 0;
+  margin-left: -122px;
+}
+
+ul > li {
+  height: 36px;
+  margin: 6px;
+  border-radius: 4px;
+  padding: 0 12px;
+  align-items: center;
+}
+
+ul > li:hover {
+  cursor: pointer;
+}
+
+.list-content {
+  width: 100%;
+}
+
+.delete-btn {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+
+/* .main {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+} */
+/* css */
